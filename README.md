@@ -1,4 +1,4 @@
-![MasterHead](https://media-exp1.licdn.com/dms/image/C4D16AQHtEoLIoPcYOg/profile-displaybackgroundimage-shrink_200_800/0/1656073032541?e=1664409600&v=beta&t=LYkRKlZUAGPS88paH9mDzXI-S6pIy-lxlrclpV6aiLE)
+![MasterHead](./assets/images/github-header-image.png)
 
 <h1 align="center">Hi 👋, I'm Hitesh Kumawat</h1>
 <h3 align="center">@ OneClickTechHelp | Loves to Code & Design | Programmer | Full Stack Web Devloper |</h3>
