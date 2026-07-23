@@ -7,7 +7,7 @@
 
 - 🔭 I'm currently working on **Full Stack Web Development**
 - 💬 Ask me about **Full Stack Web Development | Programming**
-- 📫 Reach me at **[hitesh@neeved.com](mailto:hitesh@neeved.com)**
+- 📫 Reach me at **[hiteshkumarbiet@gmail.com](mailto:hiteshkumarbiet@gmail.com)**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
@@ -48,16 +48,17 @@
 </p>
 
 <h3 align="left">GitHub Stats:</h3>
-<div>
-  <p><img align="left" height="222px" style="width:45%;" src="https://github-readme-stats.vercel.app/api/top-langs?username=csehitesh&show_icons=true&locale=en&layout=compact" alt="csehitesh top languages" /></p>
-  <p><img align="right" height="222px" style="width:45%;" src="https://github-readme-stats.vercel.app/api?username=csehitesh&show_icons=true&locale=en" alt="csehitesh github stats" /></p>
-</div>
 
-<br clear="both">
+<!--
+  github-metrics.svg is rendered by the "Metrics" workflow in
+  .github/workflows/metrics.yml (self-hosted, see workflow file for setup notes).
+  It replaces the old github-readme-stats.vercel.app / github-profile-trophy.vercel.app
+  cards, whose shared public demo deployments were shut down by their maintainers
+  (DEPLOYMENT_PAUSED / DEPLOYMENT_DISABLED) and are no longer reliable.
+-->
+<p align="center"><img src="./github-metrics.svg" alt="csehitesh GitHub metrics" /></p>
 
 <p align="center"><img src="https://streak-stats.demolab.com/?user=csehitesh&theme=default" alt="csehitesh streak stats" /></p>
-
-<p align="center"><img src="https://github-profile-trophy.vercel.app/?username=csehitesh&theme=flat&column=7&margin-w=10&margin-h=10" alt="csehitesh trophies" /></p>
 
 <p align="center">
 <img src="https://komarev.com/ghpvc/?username=csehitesh&label=Profile%20views&color=0e75b6&style=flat" alt="csehitesh profile views" />
