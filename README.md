@@ -9,7 +9,7 @@
 </div>
 
 <div align="center">
-  <a href="https://linkedin.com/in/csehitesh" target="_blank">
+  <a href="https://www.linkedin.com/in/csehiteshkumar/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://x.com/csehitesh" target="_blank">
@@ -32,7 +32,7 @@
 - 🔭 **Focus Areas:** Scalable System Architecture • Cloud Infrastructure • Full-Stack Web Platforms • Developer Velocity
 - 🎯 **Leadership Approach:** Architecture Decision Records (ADRs) • Agile Execution • Code Quality Standards • Team Mentorship
 - 💬 **Ask Me About:** Distributed Systems • Microservices vs Monoliths • Modern React & Next.js • High-Throughput Node.js APIs
-- 📫 **Direct Reach:** **[hiteshkumarbiet@gmail.com](mailto:hiteshkumarbiet@gmail.com)** | **[LinkedIn](https://linkedin.com/in/csehitesh)**
+- 📫 **Direct Reach:** **[hiteshkumarbiet@gmail.com](mailto:hiteshkumarbiet@gmail.com)** | **[LinkedIn](https://www.linkedin.com/in/csehiteshkumar/)**
 
 ---
 
@@ -178,7 +178,7 @@
 I am always interested in discussing complex system design challenges, scalable web architecture, engineering leadership, open-source projects, and high-impact technical opportunities.
 
 <div align="center">
-  <a href="https://linkedin.com/in/csehitesh" target="_blank">
+  <a href="https://www.linkedin.com/in/csehiteshkumar/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   &nbsp;
