@@ -32,9 +32,11 @@ TypeScript — services that have to stay correct when the network,
 the queue, or the third party doesn't cooperate.
 
 - 🔭 **Working on:** Distributed Node.js services • AWS SNS/SQS pipelines •
-  Postgres schema design • blockchain orchestration
+  Postgres schema design
 - 🧱 **How I build:** Transactional outbox over hopeful retries • idempotency
   by event ID • ADRs so decisions outlive the people who made them
+- 🤖 **Agentic dev stack:** Claude, Antigravity, Cursor, Windsurf & Copilot
+  for AI-assisted coding • RAG pipeline development
 - 💬 **Ask me about:** Microservices vs. monolith (and when boring wins) •
   Supabase auth across subdomains • Turborepo monorepos • API contracts
   teams don't fight over
@@ -115,7 +117,8 @@ the queue, or the third party doesn't cooperate.
 <p align="left">
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
-  <img src="https://img.shields.io/badge/RESTful_APIs-005571?style=for-the-badge&logo=fastapi&logoColor=white" alt="RESTful APIs" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/RESTful_APIs-005571?style=for-the-badge&logoColor=white" alt="RESTful APIs" />
   <img src="https://img.shields.io/badge/Microservices-FF6F00?style=for-the-badge&logo=apache-kafka&logoColor=white" alt="Microservices" />
   <img src="https://img.shields.io/badge/Puppeteer-40B5A4?style=for-the-badge&logo=puppeteer&logoColor=white" alt="Puppeteer" />
 </p>
@@ -138,6 +141,16 @@ the queue, or the third party doesn't cooperate.
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
   <img src="https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=black" alt="Webpack" />
+</p>
+
+#### 🤖 Agentic Development & AI Tooling
+<p align="left">
+  <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
+  <img src="https://img.shields.io/badge/Antigravity-4285F4?style=for-the-badge&logoColor=white" alt="Antigravity" />
+  <img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor" />
+  <img src="https://img.shields.io/badge/Windsurf-00B4AB?style=for-the-badge&logoColor=white" alt="Windsurf" />
+  <img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="GitHub Copilot" />
+  <img src="https://img.shields.io/badge/RAG_Development-4B8BBE?style=for-the-badge&logoColor=white" alt="RAG Development" />
 </p>
 
 ---
@@ -163,12 +176,6 @@ the queue, or the third party doesn't cooperate.
 
 <div align="center">
   <img src="https://streak-stats.demolab.com/?user=csehitesh&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="Hitesh's GitHub Streak Stats" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="./github-metrics.svg" alt="Hitesh's GitHub Metrics" width="95%" />
 </div>
 
 <br />
