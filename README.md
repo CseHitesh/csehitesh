@@ -140,6 +140,16 @@ the queue, or the third party doesn't cooperate.
   <img src="https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=black" alt="Webpack" />
 </p>
 
+#### 🧪 Testing & Quality
+<p align="left">
+  <img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" alt="Jest" />
+  <img src="https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white" alt="Vitest" />
+  <img src="https://img.shields.io/badge/Sinon-6F5199?style=for-the-badge&logoColor=white" alt="Sinon" />
+  <img src="https://img.shields.io/badge/Chai-A30701?style=for-the-badge&logoColor=white" alt="Chai" />
+  <img src="https://img.shields.io/badge/Unit_Testing-2C3E50?style=for-the-badge&logoColor=white" alt="Unit Testing" />
+  <img src="https://img.shields.io/badge/E2E_Testing-2C3E50?style=for-the-badge&logoColor=white" alt="E2E Testing" />
+</p>
+
 #### 🤖 Agentic Development & AI Tooling
 <p align="left">
   <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
