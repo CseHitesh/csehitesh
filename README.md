@@ -32,7 +32,7 @@ TypeScript — services that have to stay correct when the network,
 the queue, or the third party doesn't cooperate.
 
 - 🔭 **Working on:** Distributed Node.js services • AWS SNS/SQS pipelines •
-  Postgres schema design
+  MongoDB & Postgres schema design
 - 🧱 **How I build:** Transactional outbox over hopeful retries • idempotency
   by event ID • ADRs so decisions outlive the people who made them
 - 🤖 **Agentic dev stack:** Claude, Antigravity, Cursor, Windsurf & Copilot
