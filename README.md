@@ -27,13 +27,19 @@
 
 ### 👨‍💻 Executive Summary
 
-> **Hands-on Tech Lead & Principal Full-Stack Architect** with extensive experience architecting high-traffic distributed web applications, robust microservices, and modern frontend ecosystems. Passionate about translating complex business requirements into resilient technical architectures, instituting engineering best practices, and mentoring high-performing engineering teams to deliver mission-critical software with velocity and quality.
+Tech Lead & backend architect. I build event-driven systems in
+TypeScript — services that have to stay correct when the network,
+the queue, or the third party doesn't cooperate.
 
-- 🔭 **Focus Areas:** Scalable System Architecture • Cloud Infrastructure • Full-Stack Web Platforms • Developer Velocity
-- 🎯 **Leadership Approach:** Architecture Decision Records (ADRs) • Agile Execution • Code Quality Standards • Team Mentorship
-- 💬 **Ask Me About:** Distributed Systems • Microservices vs Monoliths • Modern React & Next.js • High-Throughput Node.js APIs
-- 📫 **Direct Reach:** **[hiteshkumarbiet@gmail.com](mailto:hiteshkumarbiet@gmail.com)** | **[LinkedIn](https://www.linkedin.com/in/csehiteshkumar/)**
-
+- 🔭 **Working on:** Distributed Node.js services • AWS SNS/SQS pipelines •
+  Postgres schema design • blockchain orchestration
+- 🧱 **How I build:** Transactional outbox over hopeful retries • idempotency
+  by event ID • ADRs so decisions outlive the people who made them
+- 💬 **Ask me about:** Microservices vs. monolith (and when boring wins) •
+  Supabase auth across subdomains • Turborepo monorepos • API contracts
+  teams don't fight over
+- 📫 [hiteshkumarbiet@gmail.com](mailto:hiteshkumarbiet@gmail.com) ·
+  [LinkedIn](https://www.linkedin.com/in/csehiteshkumar/)
 ---
 
 ### 🏛️ Engineering Leadership & Architecture Pillars
@@ -43,35 +49,33 @@
     <td width="50%" valign="top">
       <h4>🏗️ System Architecture & Scalability</h4>
       <ul>
-        <li><b>Distributed Microservices:</b> Decoupled services, event-driven architectures, and resilient REST & GraphQL APIs.</li>
-        <li><b>High Availability & Caching:</b> Multi-tier caching with Redis, sub-100ms API latency targets, and load balancing.</li>
-        <li><b>Data Modeling & Integrity:</b> Schema design, indexing, and optimization across PostgreSQL, MongoDB, and MySQL.</li>
+        <li><b>Services that talk through events:</b> Small independent services that pass messages instead of calling each other directly, so one slow service doesn't take the rest down.</li>
+        <li><b>Caching where it counts:</b> Redis in front of the expensive reads, so the same query doesn't hit the database twice.</li>
+        <li><b>Databases designed to stay fast:</b> Tables, keys, and indexes planned upfront in PostgreSQL and MongoDB — so queries stay quick as data grows.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>💻 Full-Stack Engineering Mastery</h4>
+      <h4>💻 Full-Stack Engineering</h4>
       <ul>
-        <li><b>Frontend Ecosystem:</b> React, Next.js (SSR/SSG), TypeScript, state management, and modern component design systems.</li>
-        <li><b>Backend Systems:</b> High-throughput Node.js, Express, Python services, asynchronous pipelines, and secure authentication.</li>
-        <li><b>Clean Code & Modularity:</b> Domain-Driven Design (DDD), SOLID principles, and reusable design patterns.</li>
+        <li><b>Frontend:</b> React, Next.js (SSR/SSG), TypeScript, state management, and reusable component systems.</li>
+        <li><b>Backend:</b> Node.js, Express, and Python services — async pipelines, background jobs, and secure authentication.</li>
       </ul>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>⚙️ DevOps, Cloud & CI/CD</h4>
+      <h4>⚙️ DevOps & CI/CD</h4>
       <ul>
-        <li><b>Containerization & Infrastructure:</b> Docker multi-stage builds, Linux server optimization, and NGINX reverse proxies.</li>
-        <li><b>Automated Pipelines:</b> GitHub Actions CI/CD workflows for automated linting, test suites, and zero-downtime releases.</li>
+        <li><b>Automated Pipelines:</b> GitHub Actions workflows for linting, test suites, and Docker multi-stage builds on every push.</li>
         <li><b>Reliability & Observability:</b> Health metrics, structured logging, error tracing, and performance profiling.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
       <h4>👥 Technical Leadership & Delivery</h4>
       <ul>
-        <li><b>Engineering Strategy:</b> Technical roadmaps, architectural reviews (ADRs), risk assessment, and technical debt management.</li>
-        <li><b>Team Mentorship:</b> Conducting constructive code reviews, pair programming, and upskilling developers.</li>
-        <li><b>Agile Delivery:</b> Sprint planning, velocity tracking, scope refinement, and cross-functional stakeholder alignment.</li>
+        <li><b>Engineering Strategy:</b> Technical roadmaps, risk assessment, and keeping technical debt from piling up.</li>
+        <li><b>Team Mentorship:</b> Constructive code reviews, pair programming, and upskilling developers.</li>
+        <li><b>Agile Delivery:</b> Sprint planning and turning vague requirements into shippable work.</li>
       </ul>
     </td>
   </tr>
@@ -138,22 +142,20 @@
 
 ---
 
-### 💡 Engineering Philosophy
+### 💡 How I Work
 
 ```
-  ┌─────────────────────────┐      ┌─────────────────────────┐      ┌─────────────────────────┐
-  │   Architecture & Scale  │      │  Quality & Automation   │      │   People & Mentorship   │
-  ├─────────────────────────┤      ├─────────────────────────┤      ├─────────────────────────┤
-  │ • Modular Microservices │ ───► │ • Automated CI/CD Gates │ ───► │ • Clear Technical ADRs  │
-  │ • Sub-100ms Latency SLA │      │ • Strict Lint & Typing  │      │ • Pair Programming     │
-  │ • Resilient Fallbacks   │      │ • Comprehensive Testing │      │ • Growth Mindset Culture│
-  └─────────────────────────┘      └─────────────────────────┘      └─────────────────────────┘
+ DESIGN                BUILD                 RUN
+ ──────                ─────                 ───
+ Small services   →    Types + tests    →    CI gate on every PR
+ Clear contracts        Real code review      Logs, metrics, traces
+ Boring choices         Pair when stuck       Fix forward, blame no one
 ```
 
-- 🎯 **Scalability By Design:** Build decoupled systems that effortlessly scale horizontally under increasing load without compromising code maintainability.
-- ⚡ **Performance Obsessed:** Optimize database queries, asset payloads, render cycles, and API throughput to ensure instantaneous user experiences.
-- 🔒 **Security & Reliability First:** Enforce zero-trust architecture, robust input validation, secure session management, and comprehensive error boundaries.
-- 🤝 **People & Culture:** Strong engineering teams are built on psychological safety, blameless post-mortems, knowledge sharing, and relentless automation.
+- 🎯 **Build it to grow sideways.** Add more machines, not more complexity.
+- ⚡ **Make it fast where users feel it.** Slow queries and heavy payloads first — not micro-optimisations nobody notices.
+- 🔒 **Assume things will break.** Validate every input, retry safely, and never lose a message halfway through.
+- 🤝 **The team is the system.** Reviews that teach, post-mortems without finger-pointing, and automation instead of tribal knowledge.
 
 ---
 
